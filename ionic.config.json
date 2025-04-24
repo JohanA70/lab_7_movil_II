@@ -1,0 +1,7 @@
+{
+  "name": "examen_II_movil_II",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
