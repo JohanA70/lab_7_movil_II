@@ -72,8 +72,8 @@ const startScan = async () => {
         const inicio = scanContent.substring(0, 8);
         if (inicio.includes("located:")) {
           const coordinates = scanContent.substring(8, scanContent.length).split(',');
-          const lat = parseFloat(coordinates[0]);
-          const lng = parseFloat(coordinates[1]);
+          const lng = parseFloat(coordinates[0]);
+          const lat = parseFloat(coordinates[1]);
 
           if (!isNaN(lat) && !isNaN(lng)) {
             map(lat, lng);
